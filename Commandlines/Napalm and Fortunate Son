@@ -5,7 +5,7 @@ Dedicated Server
 #SOG:PF CDLC
 checked
 # Headless Clients
-0
+2
 #Server/Client Mods, separate via ;
 @ace;@CBAA3;@DUISquadRadar;@ZeusEnhanced;@TaskForceArrowheadRadioBETA;@ZeusEnhancedACE3Compatibility;@GruppeAdlerTrenches;@DefoliatingDaisycutters;@ACECompatSOG;@Unsungreduxstable;#Server-side ONLY, separate via ;
 #Auto Initialize	
