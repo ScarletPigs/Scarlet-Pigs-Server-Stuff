@@ -1,0 +1,160 @@
+version=1;
+blood=1;
+singleVoice=0;
+gamma=1;
+brightness=1;
+activeKeys[]=
+{
+	"BIS_025_OP_CLEAR-SKIES_JSRS.Altis_done",
+	"BIS_027_OP_PATROL-32.Altis_done",
+	"BIS_008_OP_Humvee-Ops-01_Country-Road_v4_YWN.Altis_done",
+	"BIS_HoHoHoHappyHolidays.hellanmaaw_done",
+	"BIS_TrainingFNG.Altis_done",
+	"BIS_028_OP_CALLBACK.Altis_done",
+	"BIS_OP_GOLDEN_WING.Altis_done",
+	"BIS_DynamicReconOps-Stratis.Stratis_done",
+	"BIS_mp_zgm_m11_west.Altis_done",
+	"BIS_OP_QUICKDRAW.Altis_done",
+	"BIS_op_frostdrop.altis_done",
+	"BIS_op_riverside.pja310_done",
+	"BIS_OP_Sideriver.pja310_done",
+	"BIS_OP_RUSTEYE.Malden_done",
+	"BIS_CSAT_Peacekeepers_00_OP_Shahin_YWN.pja310_done",
+	"BIS_tempMissionMP.Malden_done",
+	"BIS_CSAT_Peacekeepers_01_OP_Azar_YWN.pja310_done",
+	"BIS_DynamicReconOps-Altis.Altis_done",
+	"BIS_mp_zgm_m11.Altis_done",
+	"BIS_001_OP_WhiteDove_01_Lightning_ALN.chernarus_summer_done",
+	"BIS_CSAT_Peacekeepers_02_OP_Shamshir_YWN.pja310_done",
+	"BIS_Snakepit-extract.Malden_done",
+	"BIS_OP_TASKMASTER.chernarus_done",
+	"BIS_OP_BAYWATCH.sara_dbe1_done",
+	"BIS_OP_TASKMASTER_Pt2.chernarus_done",
+	"BIS_OP_PRETENDER.sara_dbe1_done",
+	"BIS_OP_VANGUARD.vt7_done",
+	"BIS_OP_BLUE_RAVEN.vt7_done",
+	"BIS_OP_PRETENDER_5-8.sara_dbe1_done",
+	"BIS_Red_Swallow.Altis_done",
+	"BIS_OP_SCHWARZWALD.vt7_done",
+	"BIS_OP_SUNFIRE.sara_dbe1_done",
+	"BIS_OP_BLEAK-HOLLOW.takistan_done",
+	"BIS_OP_FURY.panthera3_done",
+	"BIS_OP_BLEAK-HOLLOW-Pt2.takistan_done",
+	"BIS_OP_STARLIGHT_FUCK_OFF.Stratis_done",
+	"BIS_OP_BAYWATCH_SMOL.sara_dbe1_done",
+	"BIS_OP_RECKONER.Stratis_done",
+	"BIS_Dark_rainbow.Stratis_done",
+	"BIS_OP_WAVERIDER.Malden_done",
+	"BIS_Tank20Training.Altis_done",
+	"BIS_OP20Western.chernarus_summer_done",
+	"BIS_exp_m01.tanoa_done",
+	"BIS_exp_m02.tanoa_done",
+	"BIS_OP_FADE-TO-BLACK-3.vt7_done",
+	"BIS_exp_m03.tanoa_done",
+	"BIS_exp_m04.tanoa_done",
+	"BIS_exp_m05.tanoa_done",
+	"BIS_OP_KALE.WL_Rosche_done",
+	"BIS_SptzNightOpBig.sara_dbe1_done",
+	"BIS_OP_OLYMPUS2.WL_Rosche_done",
+	"BIS_OP_SUNFIRE(RU)_functional.sara_dbe1_done",
+	"BIS_Winterwinds.Chernarus_Winter_done",
+	"BIS_OP_SwanCSAT.vt7_done",
+	"BIS_OP_QUICKSTRYKE.Malden_done",
+	"BIS_O%20C%20C%20U%20P%20A%20T%20I%20O%20N%20-%20A%20L%20T%20I%20S.Altis_done",
+	"BIS_OP_BLACK_ANVIL_REDUX.Altis_done",
+	"BIS_OP_EINIGKEIT.WL_Rosche_done",
+	"BIS_OP_BROKEN_GEAR.Tanoa_done",
+	"BIS_OP_AUTUMN_RAIN.Altis_done",
+	"BIS_IG20On20Islands.sara_dbe1_done",
+	"BIS_OP_PRETENDER_OCT2020.sara_dbe1_done",
+	"BIS_OP_SILENT_DOOM_HALLOWEEN2020_new.Chernarus_2035_done",
+	"BIS_OP%20ARMA%20BLUES.Altis_done",
+	"BIS_OPFOR_Spetsnaz_01_Whiskey_YWN.pja310_done",
+	"BIS_OPFOR_Spetsnaz_02_Tango_YWN.pja310_done",
+	"BIS_OP%20LAST%20LIGHT.vt7_done",
+	"BIS_OP%20WILD%20HUNTER2.Altis_done",
+	"BIS_OP%20LAST%20LIGHT%20II.vt7_done",
+	"BIS_Christmas2020_OP_Knecht_Ruprecht_ugs_YWN.Chernarus_Winter_done",
+	"BIS_Operation%20Eurus.Malden_done",
+	"BIS_TRNG_SP_FO_GosAlRayak_V1_020321.pja310_done",
+	"BIS_OP00_Final6.Beketov_done",
+	"BIS_BLUFOR_BAF_01_OP_DRUMMER_ABE_final.Chernarus_Winter_done",
+	"BIS_ABE_c01_m02_BLUFOR_US_35_OP_DRUMMER_P2_final.Chernarus_Winter_done",
+	"BIS_coop_01.cam_lao_nam_done",
+	"BIS_coop_02.cam_lao_nam_done",
+	"BIS_TPT_c01_m03_BLUFOR_USRanger_2k_OP_Phobos_Rev3.Gulfcoast_done",
+	"BIS_TRAINING-DAY-2021.Altis_done",
+	"BIS_DIV_REDFOR_CSAT_35_OP_Ghost_Hotel_Rev4.Altis_done",
+	"BIS_OVE_nam_impromptu_2.Cam_Lao_Nam_done",
+	"BIS_TvTCacheCrashingNoLambsWP.Cam_Lao_Nam_done",
+	"BIS_ABE_BLUFOR_OPERATION_REDSNOW_PMC_Modern_Rev3.Altis_done",
+	"BIS_ABE_OPFOR_001_OP_OPERATION_LIBERATION_BRITS%2fRUS_Rev3.Malden_done",
+	"BIS_ABE_OPFOR_001_OP_OPERATION_LIBERATION_BRITS%2fRUS_Rev4.Malden_done",
+	"BIS_kp_liberation.isladuala3_done",
+	"BIS_ABE_OPFOR_002_OP_OPERATION_LIBERATION_BRITS%2fRUS_Rev1.Malden_done",
+	"BIS_ABE_OPFOR_003_OP_OPERATION_IRON_WALL_SOVIET_BRITISH_Rev3.Malden_done",
+	"BIS_MP_CombatPatrol_04.Malden_done",
+	"BIS_NUB_BLU_PATTON.Altis_done",
+	"BIS_ABE_OPFOR_001_OP_DEEP_DIVE_Rev1.Woodland_ACR_done",
+	"BIS_NUB_CTRG_SHEEN.Cam_Lao_Nam_done",
+	"BIS_CO09%2fSP%3a%20Ride%20of%20the%20Valkyries.Cam_Lao_Nam_done"
+};
+class DifficultyPresets
+{
+	class CustomDifficulty
+	{
+		class Options
+		{
+			reducedDamage=0;
+			groupIndicators=0;
+			friendlyTags=0;
+			enemyTags=0;
+			detectedMines=1;
+			commands=2;
+			waypoints=0;
+			weaponInfo=2;
+			stanceIndicator=2;
+			staminaBar=1;
+			weaponCrosshair=0;
+			visionAid=0;
+			thirdPersonView=1;
+			cameraShake=1;
+			scoreTable=0;
+			deathMessages=0;
+			vonID=1;
+			mapContent=0;
+			autoReport=0;
+			multipleSaves=0;
+		};
+		aiLevelPreset=3;
+	};
+	class CustomAILevel
+	{
+		skillAI=0.80000001;
+		precisionAI=0.60000002;
+	};
+};
+playedKeys[]=
+{
+	"BIS_EXP_m01.Tanoa_done",
+	"BIS_EXP_m02.Tanoa_done",
+	"BIS_EXP_m03.Tanoa_done",
+	"BIS_EXP_m04.Tanoa_done",
+	"BIS_EXP_m05.Tanoa_done",
+	"BIS_Showcase_Tanks.Altis_done",
+	"BIS_Showcase_FiringFromVehicles.Altis_done",
+	"LAC_vn_valkyr"
+};
+maxSamplesPlayed=96;
+sceneComplexity=400000;
+shadowZDistance=100;
+viewDistance=1000;
+preferredObjectViewDistance=800;
+pipViewDistance=500;
+terrainGrid=25;
+volumeCD=5;
+volumeFX=5;
+volumeSpeech=5;
+volumeVoN=10;
+vonRecThreshold=0.029999999;
+volumeMapDucking=1;
