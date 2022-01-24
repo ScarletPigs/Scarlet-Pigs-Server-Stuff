@@ -488,10 +488,10 @@ ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
 force ace_overheating_cookoffCoef = 1;
-force ace_overheating_coolingCoef = 1;
+force ace_overheating_coolingCoef = 2;
 ace_overheating_displayTextOnJam = true;
 force ace_overheating_enabled = true;
-force ace_overheating_heatCoef = 1;
+force ace_overheating_heatCoef = 0.5;
 force ace_overheating_jamChanceCoef = 1;
 force ace_overheating_overheatingDispersion = true;
 force ace_overheating_overheatingRateOfFire = true;
@@ -500,8 +500,8 @@ ace_overheating_showParticleEffects = true;
 ace_overheating_showParticleEffectsForEveryone = false;
 force ace_overheating_suppressorCoef = 1;
 force ace_overheating_unJamFailChance = 0.1;
-force ace_overheating_unJamOnreload = false;
-force ace_overheating_unJamOnSwapBarrel = false;
+force ace_overheating_unJamOnreload = true;
+force ace_overheating_unJamOnSwapBarrel = true;
 
 // ACE Pharmacy - AED
 force aceP_circulation_CPR_Chance_Default = 20;
