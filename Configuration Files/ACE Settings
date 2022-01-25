@@ -436,7 +436,8 @@ force ace_medical_treatment_clearTrauma = 1;
 force ace_medical_treatment_consumePAK = 0;
 force ace_medical_treatment_consumeSurgicalKit = 0;
 force ace_medical_treatment_convertItems = 0;
-force ace_medical_treatment_cprSuccessChanceMax = 0.4;
+force ace_medical_treatment_
+SuccessChanceMax = 0.4;
 force ace_medical_treatment_cprSuccessChanceMin = 0.4;
 force ace_medical_treatment_holsterRequired = 0;
 force ace_medical_treatment_litterCleanupDelay = 600;
@@ -504,9 +505,9 @@ force ace_overheating_unJamOnreload = true;
 force ace_overheating_unJamOnSwapBarrel = true;
 
 // ACE Pharmacy - AED
-force aceP_circulation_CPR_Chance_Default = 20;
-force aceP_circulation_CPR_Chance_Doctor = 40;
-force aceP_circulation_CPR_Chance_RegularMedic = 30;
+force aceP_circulation_CPR_Chance_Default = 25;
+force aceP_circulation_CPR_Chance_Doctor = 75;
+force aceP_circulation_CPR_Chance_RegularMedic = 50;
 force aceP_circulation_DeactMon_whileAED_X = true;
 force aceP_circulation_distanceLimit_AEDX = 30;
 force aceP_circulation_enable_CPR_Chances = true;
