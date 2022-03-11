@@ -5,7 +5,7 @@ Dedicated Server
 # Headless Clients
 2
 #Server/Client Mods, separate via ;
-@CBAA3;@ace;@ACEX;@DUISquadRadar;@AdvancedSlingLoading;@ZeusEnhanced;@ZeusEnhancedACE3Compatibility;@TaskForceArrowheadRadioBETA;@GruppeAdlerTrenches;@CUPTerrainsCore;@InteriorsforCUP;@RHSAFRF;@RHSGREF;@RHSUSAF;@ACECompatRHSAFRF;@ACECompatRHSUSAF;@ACECompatRHSGREF;@Backpackonchest;@VirolahtiValtatie7;@RHSSAF;@ACECompatRHSSAF;
+@CBAA3;@ace;@ACEX;@DUISquadRadar;
 #Server-side ONLY, separate via ;
 #Auto Initialize	
 Off
