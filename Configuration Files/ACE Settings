@@ -75,7 +75,7 @@ force ace_cookoff_probabilityCoef = 1;
 // ACE Crew Served Weapons
 force ace_csw_ammoHandling = 2;
 force ace_csw_defaultAssemblyMode = false;
-ace_csw_dragAfterDeploy = false;
+ace_csw_dragAfterDeploy = true;
 force ace_csw_handleExtraMagazines = true;
 force ace_csw_progressBarTimeCoefficent = 1;
 
@@ -105,7 +105,7 @@ force acex_field_rations_waterSourceActions = 2;
 
 // ACE Fire
 force ace_fire_dropWeapon = 1;
-force ace_fire_enabled = true;
+force ace_fire_enabled = false;
 force ace_fire_enableFlare = false;
 ace_fire_enableScreams = true;
 
@@ -325,10 +325,10 @@ force force ace_repair_engineerSetting_repair = 1;
 force force ace_repair_engineerSetting_wheel = 0;
 force force ace_repair_fullRepairLocation = 3;
 force ace_repair_fullRepairRequiredItems = ["ace_repair_anyToolKit"];
-force ace_repair_locationsBoostTraining = false;
+force ace_repair_locationsBoostTraining = true;
 force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
 force force ace_repair_repairDamageThreshold = 0.6;
-force force ace_repair_repairDamageThreshold_engineer = 0.295603;
+force force ace_repair_repairDamageThreshold_engineer = 0.497925;
 force force ace_repair_wheelRepairRequiredItems = [];
 
 // ACE Magazine Repack
@@ -526,7 +526,7 @@ force aceP_circulation_etomidateTime = 45;
 force aceP_circulation_fractureCheck = 2;
 force aceP_circulation_incisionTime = 10;
 force aceP_circulation_openTime = 15;
-force aceP_circulation_simpleChance = 30;
+force aceP_circulation_simpleChance = 20;
 force aceP_circulation_surgicalAction = 2;
 force aceP_circulation_surgicalLocation = 3;
 force aceP_circulation_surgicalTime = 8;
@@ -537,7 +537,7 @@ force aceP_circulation_IOestablish = 7;
 force aceP_circulation_IVdrop = 600;
 force aceP_circulation_IVdropEnable = true;
 force aceP_circulation_IVestablish = 7;
-force aceP_circulation_IVmedic = 2;
+force force aceP_circulation_IVmedic = 1;
 force aceP_circulation_IVreuse = true;
 force aceP_circulation_naloxoneActive = true;
 force aceP_circulation_PushTime = 7;
@@ -883,7 +883,7 @@ force emr_main_whitelistStr = "";
 // Fawks' Enhanced NVGs
 PDT_ENVG_ACE = false;
 PDT_ENVG_Blacklist = "";
-PDT_ENVG_Effect = "";
+PDT_ENVG_Effect = "wpEffect";
 
 // GRAD Trenches
 force grad_trenches_functions_allowBigEnvelope = true;
