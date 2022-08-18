@@ -12,3 +12,6 @@ https://r.3v.fi/discord-timestamps/
 
 Time zone converter:
 https://everytimezone.com/
+
+Compare a text (e.g. exported settings against settings in github)
+https://text-compare.com/
