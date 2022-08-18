@@ -51,6 +51,10 @@ force ace_captives_allowSurrender = true;
 force ace_captives_requireSurrender = 1;
 force ace_captives_requireSurrenderAi = false;
 
+// ACE Casings
+ace_casings_enabled = true;
+ace_casings_maxCasings = 250;
+
 // ACE Common
 force ace_common_allowFadeMusic = true;
 force ace_common_checkPBOsAction = 0;
@@ -62,7 +66,6 @@ ace_common_epilepsyFriendlyMode = false;
 ace_common_progressBarInfo = 2;
 force ace_common_settingFeedbackIcons = 1;
 force ace_common_settingProgressBarLocation = 0;
-force ace_noradio_enabled = true;
 
 // ACE Cook off
 force ace_cookoff_ammoCookoffDuration = 1;
@@ -77,6 +80,7 @@ force ace_csw_ammoHandling = 2;
 force ace_csw_defaultAssemblyMode = false;
 ace_csw_dragAfterDeploy = true;
 force ace_csw_handleExtraMagazines = true;
+force ace_csw_handleExtraMagazinesType = 0;
 force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Dragging
@@ -227,6 +231,7 @@ ace_interact_menu_moveToRoot__ACE_Equipment__ace_interaction_weaponAttachments =
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open__ace_kestrel4500_hide = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_kestrel4500_open__ace_kestrel4500_show = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ace_marker_flags = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure__ace_microdagr_close = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_microdagr_configure__ace_microdagr_show = false;
@@ -332,6 +337,7 @@ force force ace_repair_repairDamageThreshold_engineer = 0.497925;
 force force ace_repair_wheelRepairRequiredItems = [];
 
 // ACE Magazine Repack
+ace_magazinerepack_repackAnimation = true;
 ace_magazinerepack_repackLoadedMagazines = true;
 force ace_magazinerepack_timePerAmmo = 1.5;
 force ace_magazinerepack_timePerBeltLink = 8;
@@ -411,6 +417,7 @@ ace_medical_gui_enableSelfActions = true;
 ace_medical_gui_interactionMenuShowTriage = 1;
 force ace_medical_gui_maxDistance = 4.0031;
 ace_medical_gui_openAfterTreatment = true;
+force ace_medical_gui_showBloodlossEntry = true;
 force force ace_medical_ivFlowRate = 5;
 force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 0.8;
@@ -481,10 +488,10 @@ ace_nametags_tagSize = 2;
 // ACE Nightvision
 force force ace_nightvision_aimDownSightsBlur = 0;
 force ace_nightvision_disableNVGsWithSights = false;
-force ace_nightvision_effectScaling = 1;
-force ace_nightvision_fogScaling = 1;
-ace_nightvision_noiseScaling = 1;
-ace_nightvision_shutterEffects = true;
+force ace_nightvision_effectScaling = 0;
+force ace_nightvision_fogScaling = 0;
+force ace_nightvision_noiseScaling = 0;
+ace_nightvision_shutterEffects = false;
 
 // ACE Overheating
 force ace_overheating_cookoffCoef = 1;
@@ -523,7 +530,7 @@ force aceP_circulation_closedTime = 10;
 force aceP_circulation_compoundChance = 30;
 force aceP_circulation_enable_fracture = true;
 force aceP_circulation_etomidateTime = 45;
-force aceP_circulation_fractureCheck = 2;
+force aceP_circulation_fractureCheck_Level = 0;
 force aceP_circulation_incisionTime = 10;
 force aceP_circulation_openTime = 15;
 force aceP_circulation_simpleChance = 20;
@@ -532,22 +539,28 @@ force aceP_circulation_surgicalLocation = 3;
 force aceP_circulation_surgicalTime = 8;
 
 // ACE Pharmacy - Medications
-force aceP_circulation_carbonateActive = true;
+force aceP_circulation_aiEnableAdvanced = false;
+force aceP_circulation_blockChance = 20;
+force aceP_circulation_factorDrugs = 2;
 force aceP_circulation_IOestablish = 7;
 force aceP_circulation_IVdrop = 600;
 force aceP_circulation_IVdropEnable = true;
 force aceP_circulation_IVestablish = 7;
 force force aceP_circulation_IVmedic = 1;
 force aceP_circulation_IVreuse = true;
-force aceP_circulation_naloxoneActive = true;
+force aceP_circulation_kidneyAction = false;
+force aceP_circulation_maxStack = 5;
 force aceP_circulation_PushTime = 7;
-force aceP_circulation_txaActive = true;
+force aceP_circulation_surgicalDrugs = 2;
+force aceP_circulation_vasoDrugs = 1;
 
 // ACE Pointing
 force force ace_finger_enabled = true;
 ace_finger_indicatorColor = [0.83,0.68,0.21,0.75];
 ace_finger_indicatorForSelf = true;
 force ace_finger_maxRange = 12;
+force ace_finger_proximityScaling = false;
+force ace_finger_sizeCoef = 1;
 
 // ACE Pylons
 force ace_pylons_enabledForZeus = true;
@@ -612,8 +625,11 @@ force ace_gunbag_swapGunbagEnabled = true;
 force ace_hitreactions_minDamageToTrigger = 0.1;
 ace_inventory_inventoryDisplaySize = 0;
 force ace_laser_dispersionCount = 2;
+force ace_laser_showLaserOnMap = 1;
+force ace_marker_flags_placeAnywhere = false;
 force ace_microdagr_mapDataAvailable = 2;
 force ace_microdagr_waypointPrecision = 3;
+force ace_noradio_enabled = true;
 ace_optionsmenu_showNewsOnMainMenu = true;
 force ace_overpressure_distanceCoefficient = 1;
 force ace_parachute_failureChance = 0;
@@ -638,6 +654,7 @@ ace_ui_gunnerWeaponLowerInfoBackground = true;
 ace_ui_gunnerWeaponName = true;
 ace_ui_gunnerWeaponNameBackground = true;
 ace_ui_gunnerZeroing = true;
+ace_ui_hideDefaultActionIcon = false;
 ace_ui_magCount = true;
 ace_ui_soldierVehicleWeaponInfo = true;
 ace_ui_staminaBar = true;
@@ -667,6 +684,7 @@ force ace_vehiclelock_vehicleStartingLockState = -1;
 ace_vehicles_hideEjectAction = true;
 force ace_vehicles_keepEngineRunning = false;
 ace_vehicles_speedLimiterStep = 5;
+force ace_viewports_enabled = true;
 
 // ACE View Distance Limiter
 force ace_viewdistance_enabled = true;
@@ -728,6 +746,7 @@ BettIR_ViewDistance = 300;
 
 // Community Base Addons
 cba_diagnostic_ConsoleIndentType = -1;
+force cba_diagnostic_watchInfoRefreshRate = 0.2;
 cba_disposable_dropUsedLauncher = 2;
 force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 1;
@@ -741,6 +760,11 @@ crowsZA_CBA_Setting_pingbox_enabled = true;
 crowsZA_CBA_Setting_pingbox_fade_duration = 300;
 crowsZA_CBA_Setting_pingbox_fade_enabled = true;
 crowsZA_CBA_Setting_pingbox_oldLimit = 600;
+crowsZA_zeus_rc_helper = true;
+crowsZA_zeus_rc_helper_color = [1,1,1,1];
+crowsZA_zeusTextLine1 = true;
+crowsZA_zeusTextLine2 = true;
+crowsZA_zeusTextLine3 = false;
 
 // CUP
 CUP_CheckCfgPatches = false;
@@ -852,33 +876,6 @@ force diwako_dui_radar_sqlFirst = true;
 force diwako_dui_radar_syncGroup = false;
 force diwako_dui_radar_vehicleCompassEnabled = false;
 diwako_dui_use_layout_editor = false;
-
-// Enhanced Movement Rework
-force emr_main_allowMidairClimbing = true;
-force emr_main_animSpeedCoef = 1;
-force emr_main_animSpeedStaminaCoef = 0.4;
-force emr_main_blacklistStr = "";
-force emr_main_climbingEnabled = true;
-force emr_main_climbOnDuty = 3.4;
-force emr_main_climbOverDuty = 3;
-force emr_main_dropDuty = 0.7;
-emr_main_dropViewElevation = -0.7;
-emr_main_enableWalkableSurface = true;
-force emr_main_enableWeightCheck = false;
-emr_main_hintType = 2;
-force emr_main_jumpDuty = 1;
-force emr_main_jumpingEnabled = true;
-force emr_main_jumpingLoadCoefficient = 1;
-force emr_main_jumpVelocity = 3.4;
-force emr_main_maxClimbHeight = 2.6;
-force emr_main_maxDropHeight = 6;
-force emr_main_maxWeightClimb1 = 100;
-force emr_main_maxWeightClimb2 = 85;
-force emr_main_maxWeightClimb3 = 60;
-force emr_main_maxWeightJump = 100;
-emr_main_preventHighVaulting = false;
-force emr_main_staminaCoefficient = 1;
-force emr_main_whitelistStr = "";
 
 // Fawks' Enhanced NVGs
 PDT_ENVG_ACE = false;
