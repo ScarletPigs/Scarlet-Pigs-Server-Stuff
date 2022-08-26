@@ -1,18 +1,1 @@
-#Description
-Scarlet Pigs 11-17-21
-#Run as...
-Dedicated Server
-#WS CDLC
-Checked
-# Headless Clients
-2
-#Server/Client Mods, separate via ;
-@3denEnhanced;@CBAA3;@RHSAFRF;@RHSGREF;@RHSUSAF;@InteriorsforCUP;@CUPWeapons;@CUPTerrainsMaps;@ace;@CUPUnits;@CUPVehicles;@ACECompatRHSAFRF;@ACECompatRHSUSAF;@ACECompatRHSGREF;@ACEPharmacy;@AdvancedSlingLoading;@BettIRLegacyv021;@CrowsZeusAdditions;@CtabDevastatorEdition;@ZECZeusandEdenTemplatesBuildingCompositions;@CUPTerrainsCore;@ZECCUPZeusandEdenTemplatesforCUPTerrains;@LAMBSDangerfsm;@LAMBSRPG;@LAMBSSuppression;@LAMBSTurrets;@GruppeAdlerTrenches;@BackpackOnChestRedux;@ProjectOPFOR;@CUPACE3CompatibilityAddonVehicles;@CUPACE3CompatibilityAddonWeapons;@CUPACE3CompatibilityAddonTerrains;@LALAQTI;@ARMA3Aegis;@ARMA3Atlas;@RMSplinterGear;@DUISquadRadar;@ZeusEnhanced;@ZeusEnhancedACE3Compatibility;@TaskForceArrowheadRadioBETA;@DrongosArtillery;@DrongosAirOperations;@FawksEnhancedNVGs;@LAMBSRPGRHS;@ProneLauncher;@RealEngine;@RookiesMedicalMod;@SimpleMapTools;@DynamicAIMinefieldsRCO;@VirolahtiValtatie7;@IslandPanthera;@Beketov;@Hellanmaa;@IslaAbramia;@IslaDuala;@Chernarus2035;@GOSAlRayak;@GulfcoastIslands;@Anizay;@WesternSaharaCreatorDLCCompatibilityDataforNonOwners;
-#Server-side ONLY, separate via ;
-#Auto Initialize	
-Off
-#Disable Logs	
-Off
-#Server File Patching	
-Off
-#Server Profile	ARMAHOSTS
+@CBAA3;@RHSAFRF;@RHSGREF;@RHSUSAF;@InteriorsforCUP;@CUPWeapons;@CUPTerrainsMaps;@ace;@CUPUnits;@CUPVehicles;@ACECompatRHSAFRF;@ACECompatRHSUSAF;@ACECompatRHSGREF;@ACEPharmacy;@AdvancedSlingLoading;@BettIRLegacyv021;@CtabDevastatorEdition;@ZECZeusandEdenTemplatesBuildingCompositions;@CUPTerrainsCore;@LAMBSDangerfsm;@LAMBSRPG;@LAMBSSuppression;@LAMBSTurrets;@GruppeAdlerTrenches;@BackpackOnChestRedux;@ProjectOPFOR;@CUPACE3CompatibilityAddonVehicles;@CUPACE3CompatibilityAddonWeapons;@CUPACE3CompatibilityAddonTerrains;@LALAQTI;@ARMA3Aegis;@ARMA3Atlas;@RMSplinterGear;@DUISquadRadar;@TaskForceArrowheadRadioBETA;@DrongosArtillery;@DrongosAirOperations;@FawksEnhancedNVGs;@LAMBSRPGRHS;@ProneLauncher;@RealEngine;@SimpleMapTools;@DynamicAIMinefieldsRCO;@AdvancedTowing;@BetterInventory;@BrighterFlares;@BrighterFlaresACECompatibilityPatch;@DiwakosACEmedicaltweaks;@ILBEAssaultPackRewrite;@ITCLandSystems;@LAMBSRPGCUP;@Wildfire;
