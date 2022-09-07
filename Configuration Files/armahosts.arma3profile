@@ -97,7 +97,17 @@ activeKeys[]=
 	"BIS_NUB_BLU_PATTON.Altis_done",
 	"BIS_ABE_OPFOR_001_OP_DEEP_DIVE_Rev1.Woodland_ACR_done",
 	"BIS_NUB_CTRG_SHEEN.Cam_Lao_Nam_done",
-	"BIS_CO09%2fSP%3a%20Ride%20of%20the%20Valkyries.Cam_Lao_Nam_done"
+	"BIS_CO09%2fSP%3a%20Ride%20of%20the%20Valkyries.Cam_Lao_Nam_done",
+	"BIS_RID_BLUFOR_35_OP_Going_Home_Rev0.Altis_done",
+	"BIS_NUB_CTRG_FISH.Altis_done",
+	"BIS_ABE_BLUFOR_001_OP_LONE_STAR_REV2.zargabad_done",
+	"BIS_TF-LYNX_02_SOUTH.Stratis_done",
+	"BIS_Antistasi-Livonia-2-5-3-Plus-1-8-3-1.Enoch_done",
+	"BIS_NUB_CTRG_CROCODILE.Cam_Lao_Nam_done",
+	"BIS_MLN_BLUFOR_IraqAirborne_2k_OP_Judgement_Day_Rev0.takistan_done",
+	"BIS_NUB_GB_NONSENSE.Malden_done",
+	"BIS_DynamicReconOpsCamLaoNamSOGPrair.cam_lao_nam_done",
+	"BIS_LiberationRX-NubACE.Altis_done"
 };
 class DifficultyPresets
 {
@@ -109,7 +119,7 @@ class DifficultyPresets
 			groupIndicators=0;
 			friendlyTags=0;
 			enemyTags=0;
-			detectedMines=1;
+			detectedMines=0;
 			commands=2;
 			waypoints=0;
 			weaponInfo=2;
