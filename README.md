@@ -1,7 +1,7 @@
 # Scarlet-Pigs-Server-Stuff
 Configs, Modlists etc. for the Scarlet Pigs Unit
 
-Our Wiki with explanations on how to download and use our modsets, our medical systems and more.
+Our Wiki with explanations on how to download and use our modsets, our medical systems and mission making resources.
 https://github.com/MacbainSP/Scarlet-Pigs-Server-Stuff/wiki
 
 Useful Links:
