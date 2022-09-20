@@ -1,6 +1,9 @@
 # Scarlet-Pigs-Server-Stuff
 Configs, Modlists etc. for the Scarlet Pigs Unit
 
+Our Wiki with explanations on how to download and use our modsets, our medical systems and more.
+https://github.com/MacbainSP/Scarlet-Pigs-Server-Stuff/wiki
+
 Useful Links:
 
 Convert a modlist html into server commandline:
