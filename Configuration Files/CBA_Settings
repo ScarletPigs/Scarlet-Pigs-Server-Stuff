@@ -94,7 +94,7 @@ force ace_dragging_dragAndFire = true;
 ace_explosives_customTimerDefault = 30;
 force ace_explosives_customTimerMax = 900;
 force ace_explosives_customTimerMin = 5;
-force ace_explosives_explodeOnDefuse = true;
+force ace_explosives_explodeOnDefuse = false;
 force ace_explosives_punishNonSpecialists = true;
 force ace_explosives_requireSpecialist = false;
 
