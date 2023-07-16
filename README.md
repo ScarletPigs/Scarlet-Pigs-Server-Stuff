@@ -10,6 +10,7 @@ Convert a modlist html into server commandline:
 https://a3config.byjokese.com/stringGen.html
 
 Discord time stamp generator:
+https://hammertime.cyou/
 https://r.3v.fi/discord-timestamps/
 
 Time zone converter:
