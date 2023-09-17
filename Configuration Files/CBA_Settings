@@ -131,7 +131,7 @@ force ace_frag_reflectionsEnabled = false;
 force ace_frag_spallEnabled = false;
 
 // ACE G-Forces
-force ace_gforces_coef = 1;
+force ace_gforces_coef = 0.5;
 force ace_gforces_enabledFor = 1;
 
 // ACE Goggles
