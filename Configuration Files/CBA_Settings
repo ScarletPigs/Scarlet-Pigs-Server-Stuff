@@ -450,21 +450,7 @@ force ace_rearm_supply = 1;
 force ace_refuel_cargoRate = 10;
 force ace_refuel_hoseLength = 18;
 force ace_refuel_progressDuration = 2;
-force ace_refuel_rate = 1;
-									  
-															 
-										 
-											
-												
-											
-										   
-										
-																	 
-											   
-																	 
-											 
-														   
-											   
+force ace_refuel_rate = 1;										   
 force ace_towing_addRopeToVehicleInventory = true;
 
 // ACE Magazine Repack
@@ -519,10 +505,7 @@ force ace_medical_deathChance = 1;
 force ace_medical_dropWeaponUnconsciousChance = 0;
 force ace_medical_enableVehicleCrashes = true;
 force ace_medical_engine_damagePassThroughEffect = 1;
-force ace_medical_fatalDamageSource = 2;
-											   
-												
-										
+force ace_medical_fatalDamageSource = 2;					
 force ace_medical_fractureChance = 0.2;
 force ace_medical_fractures = 1;
 ace_medical_gui_bloodLossColor_0 = [1,1,1,1];
@@ -544,14 +527,7 @@ ace_medical_gui_damageColor_5 = [0.42,0.57,1,1];
 ace_medical_gui_damageColor_6 = [0.37,0.47,1,1];
 ace_medical_gui_damageColor_7 = [0.31,0.36,1,1];
 ace_medical_gui_damageColor_8 = [0.22,0.23,1,1];
-ace_medical_gui_damageColor_9 = [0,0,1,1];
-								  
-									  
-										  
-											  
-									  
-										  
-												
+ace_medical_gui_damageColor_9 = [0,0,1,1];						
 force ace_medical_ivFlowRate = 3;
 force ace_medical_limping = 1;
 force ace_medical_painCoefficient = 0.8;
@@ -898,8 +874,7 @@ acex_volume_remindIfLowered = false;
 acex_volume_showNotification = true;
 
 // ACE Weapons
-ace_common_persistentLaserEnabled = false;
-									  
+ace_common_persistentLaserEnabled = false;		  
 ace_reload_displayText = true;
 ace_reload_showCheckAmmoSelf = false;
 ace_reloadlaunchers_displayStatusText = true;
@@ -1144,17 +1119,13 @@ force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 force grad_trenches_functions_vehicleTrenchBuildSpeed = 5;
 
-// ITC Land
-ITC_LAND_CIWS = true;
-
 // KAT - ADV Medical: Airway
 force kat_airway_Accuvac_time = 6;
 force kat_airway_autoTriage = true;
 force kat_airway_block_headTurning_ifAirwayItem = false;
 force kat_airway_CancelRecoveryPosition_Time = 6;
 force kat_airway_CheckAirway_time = 2;
-force kat_airway_checkbox_puking_sound = true;
-									 
+force kat_airway_checkbox_puking_sound = true;		 
 force kat_airway_enable = true;
 force kat_airway_Guedeltubus_time = 6;
 force kat_airway_HeadTurn_Interval = 3;
@@ -1182,8 +1153,7 @@ force kat_breathing_deepPenetratingInjuryChance = 0;
 force kat_breathing_deterioratingPneumothorax_chance = 0;
 force kat_breathing_deterioratingPneumothorax_interval = 60;
 force kat_breathing_enable = true;
-force kat_breathing_enable_selfChestseal = 1;
-										  
+force kat_breathing_enable_selfChestseal = 1;			  
 force kat_breathing_enableSPO2Flashing = true;
 force kat_breathing_HPTXBleedAmount = 0;
 force force kat_breathing_hptxChance = 0;
@@ -1194,8 +1164,7 @@ force kat_breathing_locationProvideOxygen = 3;
 force kat_breathing_lowSPO2Level = 90;
 force kat_breathing_medLvl_BVM = 0;
 force kat_breathing_medLvl_BVM_Oxygen = 0;
-force kat_breathing_medLvl_Chestseal = 0;
-										
+force kat_breathing_medLvl_Chestseal = 0;				
 force kat_breathing_medLvl_hemopneumothoraxTreatment = 0;
 force kat_breathing_medLvl_PocketBVM = 0;
 force kat_breathing_medLvl_Pulseoximeter = 0;
@@ -1255,7 +1224,6 @@ force kat_circulation_AEDX_VitalsMonitor_DetachTime = 3;
 force kat_circulation_blood_draw_limit = 3.6;
 force kat_circulation_blood_drawTime_250ml = 25;
 force kat_circulation_blood_drawTime_500ml = 50;
-								  
 force kat_circulation_bloodGroups = false;
 force kat_circulation_bloodTypeCustomList = "O,O,A,A,O_N,B,A_N,AB,B_N,AB_N";
 force kat_circulation_bloodTypeRandomWeighted = true;
@@ -1278,8 +1246,7 @@ force kat_circulation_enable_CPR_Chances = true;
 force kat_circulation_enable_selfBloodDraw = 1;
 force kat_circulation_medLvl_AED = 1;
 force kat_circulation_medLvl_AED_Station_Interact = 0;
-force kat_circulation_medLvl_AED_X = 1;
-											
+force kat_circulation_medLvl_AED_X = 1;					
 force kat_circulation_useLocation_AED = 0;
 
 // KAT - ADV Medical: GUI
@@ -1371,8 +1338,6 @@ force kat_pharma_treatmentTime_TXA = 7;
 force kat_pharma_weapon_sway_pervitin = true;
 
 // KAT - ADV Medical: Surgery
-										   
-									   
 force kat_surgery_closedLocation = 0;
 force kat_surgery_closedReduction_MedLevel = 2;
 force kat_surgery_closedReductionFailChance = 10;
@@ -1534,15 +1499,11 @@ force TFAR_Teamspeak_Channel_Password = "123";
 force tfar_terrain_interception_coefficient = 7;
 force TFAR_voiceCone = true;
 
-// Wildfire
-force wildfire_main_burnBuildings = false;
-force wildfire_main_burnTime = 90;
-force wildfire_main_damageDistance = 20;
-force wildfire_main_maxBurningObjects = 600;
-force wildfire_main_minDistanceToPlayer = 500;
-force wildfire_main_placeBurnedTrees = true;
-force wildfire_main_spreadDistance = 35;
-force wildfire_main_spreadSpeedKmh = 1;
+// Tracer Fires
+force TRFR_chanceMultiplier = 1;
+force TRFR_enabled = false;
+force TRFR_fireGrowChance = 0.2;
+force TRFR_fireLimit = 500;
 
 // Zeus Enhanced
 force zen_area_markers_editableMarkers = 0;
