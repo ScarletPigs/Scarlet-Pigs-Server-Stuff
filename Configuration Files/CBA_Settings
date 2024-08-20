@@ -573,7 +573,7 @@ force ace_magazinerepack_timePerBeltLink = 8;
 force ace_magazinerepack_timePerMagazine = 2;
 
 // ACE Map
-force force ace_map_BFT_Enabled = false;
+force force ace_map_BFT_Enabled = true;
 force ace_map_BFT_HideAiGroups = true;
 force ace_map_BFT_Interval = 1;
 force ace_map_BFT_ShowPlayerNames = true;
@@ -732,7 +732,7 @@ force ace_nametags_playerNamesMaxAlpha = 0.7;
 force ace_nametags_playerNamesViewDistance = 6;
 force ace_nametags_showCursorTagForVehicles = true;
 force ace_nametags_showNamesForAI = false;
-ace_nametags_showPlayerNames = 1;
+ace_nametags_showPlayerNames = 2;
 force ace_nametags_showPlayerRanks = false;
 force ace_nametags_showSoundWaves = 0;
 force ace_nametags_showVehicleCrewInfo = true;
