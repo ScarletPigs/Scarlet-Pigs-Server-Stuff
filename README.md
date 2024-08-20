@@ -14,6 +14,6 @@ Time zone converter:
 https://everytimezone.com/
 
 Compare a text (e.g. exported settings against settings in github)
-https://text-compare.com/
+[https://text-compare.com/](https://www.diffchecker.com/)
 
 <img width="700" alt="pig" src="https://user-images.githubusercontent.com/96945503/191259807-f48785b6-9878-4e61-b752-32c79ebe2de8.png">
