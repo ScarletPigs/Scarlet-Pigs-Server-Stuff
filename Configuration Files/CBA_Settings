@@ -1702,7 +1702,7 @@ force TFAR_voiceCone = true;
 
 // Tracer Fires
 force TRFR_chanceMultiplier = 1;
-force TRFR_enabled = false;
+force TRFR_enabled = true;
 force TRFR_fireGrowChance = 0.2;
 force TRFR_fireLimit = 500;
 
