@@ -13,7 +13,7 @@ force A3TI_REMOVE_FILMGRAIN_RHS = true;
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 force ace_advanced_ballistics_bulletTraceEnabled = true;
-force force ace_advanced_ballistics_enabled = false;
+force force ace_advanced_ballistics_enabled = true;
 force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force ace_advanced_ballistics_simulationInterval = 0.05;
 
@@ -2325,3 +2325,4 @@ zen_faction_filter_3_DSF_Civilians = true;
 zen_faction_filter_3_LOP_AFR_Civ = true;
 zen_faction_filter_3_LOP_CHR_Civ = true;
 zen_faction_filter_3_LOP_TAK_Civ = true;
+
